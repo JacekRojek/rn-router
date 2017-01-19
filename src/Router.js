@@ -1,7 +1,9 @@
 'use strict';
 
 var React = require('react-native');
-var { StyleSheet, View, Navigator, Children, PropTypes } = React;
+var { StyleSheet, View, Navigator, Children } = React;
+var ReactNative = require('react');
+var { PropTypes }  = ReactNative;
 
 var Router = React.createClass({
 
