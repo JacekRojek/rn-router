@@ -1,8 +1,10 @@
 'use strict';
 
-var React = require('react-native');
-var { StyleSheet, View, Children, PropTypes, TouchableOpacity,
-      TouchableHighlight } = React;
+var ReactNative = require('react-native');
+var { StyleSheet, View, TouchableOpacity,
+      TouchableHighlight } = ReactNative;
+var React = require('react');
+var { PropTypes, Children }  = React;
 
 var Link = React.createClass({
 
